@@ -4,7 +4,7 @@
 body {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-	background-color: #f5f3eb;
+	background-color: #CBFD74;
 }
 .wrapper {
 	margin: 0 auto 0 auto;
@@ -15,7 +15,7 @@ h2 {
 	font-size: 18px;
 	border-bottom-width: 2px;
 	border-bottom-style: dotted;
-	border-bottom-color: #442220;
+	border-bottom-color: #44222;
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-bottom: 20px;
@@ -29,16 +29,16 @@ p {
 	line-height: 160%;
 }
 a:link {
-	color:#6aa4d6;
+	color:#1929DA;
 }
 a:visited {
-	color:#6aa4d6;
+	color:#1929DA;
 }
 a:hover {
-	color: #4f7697;
+	color: #1929DA;
 }
 a:active {
-	color: #aed3f2;
+	color: #1929DA;
 }
 h1 {
 	margin: 30px 0 30px 0;
@@ -57,21 +57,25 @@ img {
 	padding-right: 30px;
 }
 #nav {
-	margin: 0 0 0 0;
-	padding: 15px 30px 10px 30px;
-	background-image: url(../images/menu-bg.png);
+    margin: 0 0 0 0;
+    padding: 15px 30px 10px 30px;
+    background-image: url(file:///F|/%E4%BD%90%E8%97%A4%E5%AE%9F%E7%B4%B9/Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/docs/images/%E3%83%95%E3%83%83%E3%82%BF%E3%83%BC.png);
 }
 #nav li a:link {
-	color: #f5f3eb;
+	color: #000000;
 	text-decoration: none;
 }
 #nav li a:visited {
-	color: #f5f3eb;
+	color: #000000;
 	text-decoration: none;
 }
 #nav li a:hover {
 	color: #e4dbb9;
 	text-decoration: none;
+}
+#nav_spe li a:hover {
+    color: #2A0AC7;
+    text-decoration: none;
 }
 #nav li a:active {
 	color: #ffffff;
